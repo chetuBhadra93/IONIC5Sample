@@ -68,6 +68,7 @@ workflows:
         scripts: 
             - |
                 # install dependencies and update to Cordova version 9
+                npm install -g cordova
                 npm install
                 cvm install 9.0.0
                 cvm use 9.0.0
